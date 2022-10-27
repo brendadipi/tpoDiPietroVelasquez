@@ -154,7 +154,7 @@ footer .pie-pagina{
 }
 
 .pie-pagina .grupo-1 ul a:hover{
-    color: lightpink;
+    color: #c72828;
 }
 
 .pie-pagina .grupo-1 ul a{
@@ -172,10 +172,10 @@ footer .pie-pagina{
     text-align: center;
 }
 .pie-pagina .grupo-1 .links a:hover{
-    color: lightpink;
+    color: #c72828;
 }    
 .pie-pagina .grupo-1 .red-social img:hover{
-    color: lightpink;
+    color: #c72828;
 }
 
 .pie-pagina .grupo-1 .links li a{ /*links de la columna LINKS*/
