@@ -18,8 +18,6 @@ const campos = {
     nombre: false,
     correo: false,
     telefono: false,
-    asunto: false,
-    mensaje: false,
 }
 
 
@@ -73,7 +71,7 @@ $formulario.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const $terminos = document.getElementById("terminos");
-    if(campos.nombre && campos.password && campos.correo && campos.telefono && $terminos.checked) {
+    if(campos.nombre && campos.correo && campos.telefono && $terminos.checked) {
         // formulario.reset();
 
         document.getElementById("formulario__mensaje-exito").classList.add("formulario__mensaje-exito-activo");
